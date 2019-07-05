@@ -58,7 +58,7 @@ router.post('/', function(req, res, next) {
 });
 
 router.get('/login', function (req, res, next) {
-	return res.render('login.ejs');
+	return res.render('login.html');
 });
 
 router.post('/login', function (req, res, next) {
